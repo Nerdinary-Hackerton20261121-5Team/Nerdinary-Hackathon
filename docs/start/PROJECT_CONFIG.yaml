@@ -32,10 +32,14 @@ technology:
   database: null
   deployment: null
 repository:
-  status: not_initialized
-  remote_url: null
+  status: initialized
+  remote_url: https://github.com/Whatisjavadude/Nerdenary-Hackerton.git
+  visibility: private
   intended_default_branch: main
-  last_checked_remote_commit: null
+  default_branch: main
+  last_checked_remote_commit: 640b9dc48e7496fa59962723bdda0b5d92e7a622
+  last_checked_remote_at: '2026-10-27T21:50:26+09:00'
+  verification_record: docs/start/REPOSITORY_SETUP.md
 online_project_sources_status: unregistered
 limits:
   agent_delegation: not_enabled
