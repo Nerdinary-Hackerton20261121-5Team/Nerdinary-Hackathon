@@ -1,0 +1,43 @@
+schema_version: 1
+template_version: 1.0.0
+prepared_on: '2026-10-27'
+mode: project
+stage: preparation
+project_id: nerdenary-hackathon-20261121
+display_name: 2026Nerdenary Hackerton_2
+product_name: null
+event:
+  start_date: '2026-11-21'
+  end_date: '2026-11-22'
+  timezone: Asia/Seoul
+  format: 무박 2일 해커톤
+  start_time: null
+  end_time: null
+  official_url: null
+  information_basis: user_confirmed
+active_roles:
+- PM
+- Design
+- Coding
+available_roles:
+- PM
+- Design
+- Coding
+medical_enabled: false
+assignment_status: unassigned
+planning_status: undecided
+technology:
+  frontend: null
+  backend: null
+  database: null
+  deployment: null
+repository:
+  status: not_initialized
+  remote_url: null
+  intended_default_branch: main
+  last_checked_remote_commit: null
+online_project_sources_status: unregistered
+limits:
+  agent_delegation: not_enabled
+  background_monitoring: not_configured
+  automatic_sync: not_configured
