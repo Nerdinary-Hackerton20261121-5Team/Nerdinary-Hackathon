@@ -44,7 +44,25 @@ team:
   information_basis: user_confirmed
   composition_record: docs/PM/TEAM_COMPOSITION.md
 assignment_status: unassigned
-planning_status: undecided
+planning_status: study_session_spec_draft
+theme:
+  title: 권태
+  definition: 선택지가 너무 많아 하나의 경험에 깊이 빠져들지 못하고, 끊임없이 다음 자극을 찾아 나서는 상태
+  service_direction: 권태를 자극으로 덮지 않고, 하나에 깊이 빠져들게 만드는 서비스
+  combination: 권태 + 공부 × 덜어내기
+  scene: 공부
+  scene_selection_method: draw
+  prescription: 덜어내기
+  prescription_selection_method: team_choice
+  prescription_description: 기능을 빼서 단순하게 만듦
+  selection_status: user_confirmed
+  confirmed_on: '2026-11-21'
+  change_deadline: '2026-11-21T16:20:00+09:00'
+  change_rule: 16시 20분 이후 주제 변경 불가
+  organizer_submission_status: unverified
+  information_basis: user_message_and_attached_slides
+  source_id: event.theme_brief
+  record: docs/event/2026-11-21/THEME.md
 technology:
   frontend: null
   backend: null
@@ -61,11 +79,56 @@ repository:
   last_checked_remote_commit: 9552107fd56398310e52b08456a549d782bbcea7
   last_checked_remote_at: '2026-11-21T15:22:22+09:00'
   verification_record: docs/start/REPOSITORY_MIGRATION_2026-11-21.md
-online_project_sources_status: entry_links_registered_details_pending
+online_project_sources_status: notion_study_session_specs_registered
 online_project_source_ids:
 - workspace.notion
 - workspace.figma
+- plan.project
+- plan.features
+- plan.policies
 limits:
   agent_delegation: not_enabled
   background_monitoring: not_configured
   automatic_sync: not_configured
+collaboration:
+  confirmed_on: '2026-11-21'
+  information_basis: user_confirmed
+  design:
+    github_access: unavailable
+    document_channels:
+    - notion
+    - figma
+    discord_invitation_status: unverified
+  other_team_members:
+    github_invitation_status: sent
+    discord_invitation_status: sent
+    invitation_acceptance_status: unverified
+  shared_document_source_id: workspace.notion
+mvp:
+  document_revision: v0.4
+  delivery_status: working_draft
+  focus: study_puzzle_and_placement_game
+  target: 공부하는 사람
+  source_id: plan.project
+  record: docs/Plan/PROJECT.md
+  feature_spec: docs/Plan/FEATURES.md
+  policy_spec: docs/Plan/POLICIES.md
+  session_mode:
+    group: one_image_region_per_participant
+    solo: whole_image
+    entry_flow: single_room_common_target
+    roster: closed_at_start
+    disconnect: freeze_part_at_disconnect
+  account_login:
+    current_proposal: not_required
+    anonymous_identity_policy: draft
+  result_presentation_status: shared_live_puzzle_then_placement_game
+  group_result_material: default_or_uploaded_photo_with_automatic_jigsaw_partition
+  boredom_reduction_mechanism_status: reduce_distractions_during_study_effect_unverified
+  implementation_status: not_started
+  problem_definition: 공부 중 집중력 저하로 생기는 딴짓(일시적 권태)
+  measurement: fixed_timer_and_app_camera
+  focus_confirmation: self_only_camera_view_signal_rules_undecided
+  session_data_retention: discard_all_at_session_end
+  primary_platform: app
+  web_session_supported: true

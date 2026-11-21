@@ -1,23 +1,51 @@
 schema_version: 1
-snapshot_status: not_created
+snapshot_status: partial
 note: 예약 경로의 빈 양식은 백업 파일 목록에 넣지 않는다. main 커밋은 조회 시 Git에서 확인한다.
 entries:
-- source_id: plan.project
-  state: unregistered_blank
-  source_url: null
+- source_id: workspace.notion
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a80aeb91fe456673f9d3b?pvs=204
   source_revision: null
-  source_last_edited_at: null
-  captured_at: null
-  exported_at: null
-  captured_by: null
-  delivery_status: null
-  completeness: not_captured
-  backup_files: []
-  reserved_path: docs/Plan/PROJECT.md
-  missing_items: []
+  source_last_edited_at: '2026-11-21T12:15:09.449Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_page_body
+  backup_files:
+  - docs/Plan/WORKSPACE.md
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
   verification:
-    status: not_run
-    evidence: null
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+  document_revision: null
+  source_scope: returned_page_body
+  source_body_sha256: bae1136b7088642570e0aaa7114a901fde76390eebd8700758c99bd698680e4e
+  export_body_sha256: 49464102b31582e4a99fb1ea5a05298edbff958f90c59e2818c1c90848800b4e
+- source_id: plan.project
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d?pvs=204
+  source_revision: null
+  source_last_edited_at: '2026-11-21T12:15:24.921Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_page_body
+  backup_files:
+  - docs/Plan/PROJECT.md
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+  document_revision: v0.4
+  source_scope: returned_page_body
+  source_body_sha256: 04815109e044379fed7c2ba002c1c06360902b9364b8709b796e589fd053dff8
+  export_body_sha256: 7307ef62350798375face2249d809ceb82e5d44872ba6d3c765ac554c20e9fd9
 - source_id: plan.team
   state: unregistered_blank
   source_url: null
@@ -35,37 +63,49 @@ entries:
     status: not_run
     evidence: null
 - source_id: plan.features
-  state: unregistered_blank
-  source_url: null
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
   source_revision: null
-  source_last_edited_at: null
-  captured_at: null
-  exported_at: null
-  captured_by: null
-  delivery_status: null
-  completeness: not_captured
-  backup_files: []
-  reserved_path: docs/Plan/FEATURES.md
-  missing_items: []
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_page_body
+  backup_files:
+  - docs/Plan/FEATURES.md
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
   verification:
-    status: not_run
-    evidence: null
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+  document_revision: v0.4
+  source_scope: returned_page_body
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 9ca1f33c260ba1f15a21c60174bd3343498b9917498e783ff3059fc05b43033a
 - source_id: plan.policies
-  state: unregistered_blank
-  source_url: null
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a816ba3a0c1719aa63984?pvs=204
   source_revision: null
-  source_last_edited_at: null
-  captured_at: null
-  exported_at: null
-  captured_by: null
-  delivery_status: null
-  completeness: not_captured
-  backup_files: []
-  reserved_path: docs/Plan/POLICIES.md
-  missing_items: []
+  source_last_edited_at: '2026-11-21T12:15:15.713Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_page_body
+  backup_files:
+  - docs/Plan/POLICIES.md
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
   verification:
-    status: not_run
-    evidence: null
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+  document_revision: v0.4
+  source_scope: returned_page_body
+  source_body_sha256: 114a3af12da358042f1ce515e4b473f9c84c8912fd2e85ce278f39122d3f6a58
+  export_body_sha256: cd856dfd75f5e2f457a1c791792e72f4a28065d7c7d81568b5940dcc0f53c95c
 - source_id: plan.ia
   state: unregistered_blank
   source_url: null
@@ -162,3 +202,201 @@ entries:
   verification:
     status: not_run
     evidence: null
+- source_id: plan.feature.F-001
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 3. F-001 — 공동 세션 개설·초대'
+  backup_files:
+  - docs/Plan/features/F-001.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 56e59a13fac20dac0ee1222a7a4714d2d0372f28b92618efc0b53ea1d80bb1d0
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-002
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 4. F-002 — 익명 참가·시작 명단 확정'
+  backup_files:
+  - docs/Plan/features/F-002.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 23739a0a9453cc042dd0921f33521904fe25e163946ba530ea8d64246725c3f3
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-003
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 5. F-003 — 고정 타이머 시작·만료'
+  backup_files:
+  - docs/Plan/features/F-003.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 79b1a454f30ac88c4088317e0f173af86a93c9260ca95ee62c9d60585b9aa098
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-004
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 6. F-004 — 경과 시간·본인 전용 카메라'
+  backup_files:
+  - docs/Plan/features/F-004.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 502eb849b62ecf9cc9babd1864e76e5ec9ff59c6c44602bbae768c972b549507
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-005
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 7. F-005 — 연결 끊김·조각 고정'
+  backup_files:
+  - docs/Plan/features/F-005.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 6585beab7508bb7bbf6ed561b29d4c80faf8a219ffc12285ff419ab5be0f8cc9
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-006
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 8. F-006 — 퍼즐 위치 맞히기·정답 판정·종료 폐기'
+  backup_files:
+  - docs/Plan/features/F-006.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 527cf8cd9dea6374530975331ffa934843a24df810479134401dc1194f3e25ea
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-007
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 9. F-007 — 개인 임시 세션'
+  backup_files:
+  - docs/Plan/features/F-007.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: b49307a25a3bd54d47f958634f50e7b9d5224e1164b6d46344513bf00e379fd1
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-008
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 10. F-008 — 퍼즐 이미지 자동 분할·배정'
+  backup_files:
+  - docs/Plan/features/F-008.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: ffa2e174c24629f3dc72a78c1fb833d20bb2a18198b27ecc2d55b656e0211f2c
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.
+- source_id: plan.feature.F-009
+  state: snapshot
+  source_url: https://app.notion.com/p/41fc0efa070a812e9017ee2892491213?pvs=204
+  source_revision: null
+  document_revision: v0.4
+  source_last_edited_at: '2026-11-21T12:15:22.133Z'
+  captured_at: '2026-11-21T21:15:26+09:00'
+  exported_at: '2026-11-21T21:15:26+09:00'
+  captured_by: assistant_via_notion_connector
+  delivery_status: working_draft
+  completeness: returned_section_excerpt
+  source_scope: '## 11. F-009 — 전체 퍼즐판·참가자별 복원'
+  backup_files:
+  - docs/Plan/features/F-009.md
+  source_body_sha256: a386afd111a5e9fd8427bfe12722331e5468cd056c9e6702fde74487328731a1
+  export_body_sha256: 9ab0e338612651c1d7c23e04c3ceac0a0b772a86adbe7b93e5936a351290d0d0
+  missing_items:
+  - 도구의 truncated·unknown_block_count 메타데이터 미제공.
+  - 원본의 실시간 변경·연결된 외부 자료·Figma 화면은 이 사본에 포함하지 않음.
+  verification:
+    status: PASS
+    evidence: 저장 후 Notion 본문을 조회하고 해당 범위의 Markdown 변환·문서 ID·연결을 확인함. 기능 실행 검증은 미실행.

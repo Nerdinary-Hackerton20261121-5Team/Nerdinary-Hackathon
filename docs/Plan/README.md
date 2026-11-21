@@ -1,9 +1,10 @@
 # Plan — 원본 조회와 백업
 
-현재 상태: 실제 기획·배정 미정, 프로젝트 Notion·Figma 시작 링크 등록, 세부 자료 연결·백업 미생성.
-2026-11-21 접근 확인 범위에서는 Notion에 행사 날짜만 있고 Figma의 지정 페이지 0:1은 비어 있었다.
-workspace.notion·workspace.figma는 시작 링크이며, 아래 plan.* 자료별 원본 등록을 대신하지 않는다.
-이 폴더의 초기 문서는 빈 양식이다. 최신 온라인 내용이나 최신 main 백업이 아니다.
+Notion 공통 시작 문서와 집중 세션 [MVP](PROJECT.md)·[기능명세](FEATURES.md)·[정책서](POLICIES.md) v0.4 초안을 등록하고 조회 사본을 확보했다.
+앱 중심·웹 실행을 지원하는 기획이다. 퍼즐은 자동 분할하고, 공부 중에는 내 얼굴을 본인만 보고 팀과는 퍼즐 복원 상태를 공유한다. 타이머가 끝나면 복원된 조각의 위치를 맞힌 뒤 방을 닫을 때 자료를 폐기한다.
+Design은 GitHub를 사용할 수 없으므로 Notion 원본에서 문서·검토, Figma에서 디자인을 확인한다.
+workspace.notion과 plan.project·plan.features·plan.policies에 원본이 등록되어 있다. 기능별 필요한 범위는 [발췌 사본](features/README.md)에서 찾는다.
+위 사본을 제외한 초기 Plan 문서는 빈 양식이다. 초안의 조회 사본을 개발 전달 완료본으로 취급하지 않는다.
 [원본 목록](../start/SOURCES.yaml)과 [백업 기록](BACKUP_MANIFEST.yaml)을 함께 사용한다.
 
 ## 자료별 기준

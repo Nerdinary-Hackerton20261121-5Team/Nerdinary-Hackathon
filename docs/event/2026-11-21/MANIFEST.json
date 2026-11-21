@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source_id": "event.theme_brief",
+  "information_basis": "user_message_and_attached_slides",
+  "received_on": "2026-11-21",
+  "copied_at": "2026-11-21T16:19:02+09:00",
+  "source_revision": null,
+  "source_last_edited_at": null,
+  "summary_path": "docs/event/2026-11-21/THEME.md",
+  "user_message_coverage": [
+    "권태 정의",
+    "서비스 지향점",
+    "주제 변경 마감",
+    "팀의 공부·덜어내기 선택"
+  ],
+  "attachment_coverage": [
+    "장면 × 처방 구성",
+    "장면 카드 8장과 예시",
+    "처방 카드 10장과 설명",
+    "참고 조합 3개"
+  ],
+  "organizer_submission_status": "unverified",
+  "files": [
+    {
+      "original_filename": "S15_.png",
+      "path": "docs/event/2026-11-21/assets/S15_.png",
+      "bytes": 101572,
+      "sha256": "d93e6c6a5569938632ef956e8de34c2d796270f0ba254265a254aa7a1a4b7deb"
+    },
+    {
+      "original_filename": "S16_.png",
+      "path": "docs/event/2026-11-21/assets/S16_.png",
+      "bytes": 691936,
+      "sha256": "d4051d29622b446da7500ad6d370fbf38f6ad3a832e458232977d40c711283e4"
+    },
+    {
+      "original_filename": "S17_.png",
+      "path": "docs/event/2026-11-21/assets/S17_.png",
+      "bytes": 805917,
+      "sha256": "3e1ccf0a014ce7774f9ec99e417f3c81e072c070feea43b4400a38cdeed07051"
+    },
+    {
+      "original_filename": "S18_.png",
+      "path": "docs/event/2026-11-21/assets/S18_.png",
+      "bytes": 76299,
+      "sha256": "c155cccad52026aa178436c379c5157dfa86573debae0a4b49978b63dd246d00"
+    }
+  ]
+}
