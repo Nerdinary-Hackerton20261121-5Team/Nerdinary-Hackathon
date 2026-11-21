@@ -1,6 +1,8 @@
 # Plan — 원본 조회와 백업
 
-현재 상태: 실제 기획·배정 미정, 프로젝트 Notion·Figma 링크 미등록, 백업 미생성.
+현재 상태: 실제 기획·배정 미정, 프로젝트 Notion·Figma 시작 링크 등록, 세부 자료 연결·백업 미생성.
+2026-11-21 접근 확인 범위에서는 Notion에 행사 날짜만 있고 Figma의 지정 페이지 0:1은 비어 있었다.
+workspace.notion·workspace.figma는 시작 링크이며, 아래 plan.* 자료별 원본 등록을 대신하지 않는다.
 이 폴더의 초기 문서는 빈 양식이다. 최신 온라인 내용이나 최신 main 백업이 아니다.
 [원본 목록](../start/SOURCES.yaml)과 [백업 기록](BACKUP_MANIFEST.yaml)을 함께 사용한다.
 

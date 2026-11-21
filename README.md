@@ -32,6 +32,9 @@ AI 도구가 AGENTS.md를 자동으로 읽는지는 도구별로 확인해야 �
 ## 원본과 보관
 
 기획·정책·배정·검토 기록은 Notion, 디자인은 Figma의 현재 적용본을 우선한다.
+[Notion 프로젝트 페이지](https://app.notion.com/p/Nerdinary-Hackathon-5Team-41fc0efa070a80aeb91fe456673f9d3b?source=copy_link)와
+[Figma 디자인 파일](https://www.figma.com/design/4VjwoVdisHzCDZABuDMMc4/NerdinaryHackathon5team?node-id=0-1)을 시작 링크로 등록했다.
+자료별 연결과 접근 확인 범위는 [원본 목록](docs/start/SOURCES.yaml)에서 관리한다.
 GitHub는 공통 지침·코드·기술 연결 계약의 원본이며 Plan 사본의 보관소가 된다.
 온라인 원본에 접근하지 못하면 최신 원격 main의 docs와 백업 기록을 확인한다.
 현재 원격 main에는 준비 문서와 빈 양식을 저장했다. 온라인 원본을 확보한 백업은 아직 없다.
@@ -42,6 +45,8 @@ GitHub는 공통 지침·코드·기술 연결 계약의 원본이며 Plan 사�
 
 ## 현재 준비 상태
 
-실제 팀 배정·아이디어·기능·기술 스택은 미정이다.
-행사 기본 정보는 설정되어 있으나 Notion·Figma 프로젝트 원본 링크는 아직 없다.
+[팀 인원 구성](docs/PM/TEAM_COMPOSITION.md)은 PM 1명·Design 1명·Web 3명·Server 2명, 총 7명으로 확인했다.
+팀원별 세부 배정·아이디어·기능·기술 스택은 미정이다.
+행사 기본 정보와 Notion·Figma 시작 링크를 등록했다. 2026-11-21 확인 시 Notion에는 행사 날짜만 있고 Figma의 지정 페이지는 비어 있었다.
+세부 기획·담당표·화면 원본 연결과 공유 백업은 아직 없다.
 개인 역할 파일은 최초 참가자의 답변 후 각자 만든다.

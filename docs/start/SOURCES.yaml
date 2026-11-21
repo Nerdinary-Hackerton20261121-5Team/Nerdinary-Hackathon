@@ -27,6 +27,59 @@ sources:
   - 연결된 서버 제출 Google Form은 로그인 화면만 확인하여 내부 양식 미확인.
   - 홈 장식 카드 전환의 일부 최종 상태 미검증.
   - 제품 기획 Notion과 디자인 Figma 원본 등록을 의미하지 않음.
+- source_id: workspace.notion
+  title: Nerdinary-Hackathon-5Team
+  service: notion
+  owner_role: PM
+  owner_person: null
+  status: registered
+  source_url: https://app.notion.com/p/Nerdinary-Hackathon-5Team-41fc0efa070a80aeb91fe456673f9d3b?source=copy_link
+  page_or_node_id: 41fc0efa-070a-80ae-b91f-e456673f9d3b
+  related_feature_ids: []
+  depends_on: []
+  fallback_path: null
+  inclusion: project_entry
+  registered_on: '2026-11-21'
+  information_basis: user_provided_link_and_connector_read
+  access_check:
+    checked_at: '2026-11-21T15:40:53+09:00'
+    method: notion.fetch
+    status: readable
+    scope: 제공된 최상위 페이지 본문
+    observed_content: 행사 날짜 20261121~20261122와 빈 문단만 확인됨.
+    source_revision: null
+    source_last_edited_at: '2026-11-21T06:37:35.277Z'
+    limitations:
+    - 세부 기획·정책·담당표 페이지는 아직 연결되지 않음.
+    - 도구 응답에 truncated·unknown_block_count·unknown_block_ids 필드가 없어 누락 여부는 별도로 보증하지 않음.
+    - 링크 등록과 접근 확인이며 공유 기획 백업이나 개발 전달 완료본이 아님.
+- source_id: workspace.figma
+  title: NerdinaryHackathon5team
+  service: figma
+  owner_role: Design
+  owner_person: null
+  status: registered
+  source_url: https://www.figma.com/design/4VjwoVdisHzCDZABuDMMc4/NerdinaryHackathon5team?node-id=0-1
+  file_key: 4VjwoVdisHzCDZABuDMMc4
+  page_or_node_id: '0:1'
+  related_feature_ids: []
+  depends_on: []
+  fallback_path: null
+  inclusion: project_entry
+  registered_on: '2026-11-21'
+  information_basis: user_provided_link_and_connector_read
+  access_check:
+    checked_at: '2026-11-21T15:40:53+09:00'
+    method: figma.get_metadata
+    status: metadata_readable
+    scope: 제공된 페이지 0:1의 구조 메타데이터
+    observed_content: Page 1 캔버스만 반환되었으며 하위 노드가 없는 빈 페이지로 확인됨.
+    source_revision: null
+    source_last_edited_at: null
+    limitations:
+    - 다른 페이지와 파일 전체의 화면·디자인은 조회하지 않음.
+    - 세부 화면·다이어그램 원본은 아직 연결되지 않음.
+    - 링크 등록과 메타데이터 접근 확인이며 공유 디자인 백업이나 개발 전달 완료본이 아님.
 - source_id: plan.project
   title: 기획서
   service: notion

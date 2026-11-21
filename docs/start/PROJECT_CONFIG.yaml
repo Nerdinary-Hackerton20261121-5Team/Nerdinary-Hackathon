@@ -33,6 +33,16 @@ available_roles:
 - Design
 - Coding
 medical_enabled: false
+team:
+  total_members: 7
+  part_counts:
+    PM: 1
+    Design: 1
+    Web: 3
+    Server: 2
+  confirmed_on: '2026-11-21'
+  information_basis: user_confirmed
+  composition_record: docs/PM/TEAM_COMPOSITION.md
 assignment_status: unassigned
 planning_status: undecided
 technology:
@@ -51,7 +61,10 @@ repository:
   last_checked_remote_commit: 9552107fd56398310e52b08456a549d782bbcea7
   last_checked_remote_at: '2026-11-21T15:22:22+09:00'
   verification_record: docs/start/REPOSITORY_MIGRATION_2026-11-21.md
-online_project_sources_status: unregistered
+online_project_sources_status: entry_links_registered_details_pending
+online_project_source_ids:
+- workspace.notion
+- workspace.figma
 limits:
   agent_delegation: not_enabled
   background_monitoring: not_configured
