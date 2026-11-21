@@ -105,30 +105,80 @@ collaboration:
     invitation_acceptance_status: unverified
   shared_document_source_id: workspace.notion
 mvp:
-  document_revision: v0.4
+  document_revision: v0.12
   delivery_status: working_draft
-  focus: study_puzzle_and_placement_game
-  target: 공부하는 사람
+  focus: study_session_and_shared_puzzle_assembly
+  target: 집이나 독립된 공간에서 혼자 공부하는 사람
   source_id: plan.project
   record: docs/Plan/PROJECT.md
   feature_spec: docs/Plan/FEATURES.md
   policy_spec: docs/Plan/POLICIES.md
   session_mode:
-    group: one_image_region_per_participant
-    solo: whole_image
+    group: single_shared_board
+    solo: assemble_subdivisions_on_one_board
     entry_flow: single_room_common_target
     roster: closed_at_start
-    disconnect: freeze_part_at_disconnect
+    disconnect: freeze_individual_restoration_at_disconnect
   account_login:
     current_proposal: not_required
     anonymous_identity_policy: draft
-  result_presentation_status: shared_live_puzzle_then_placement_game
-  group_result_material: default_or_uploaded_photo_with_automatic_jigsaw_partition
+  result_presentation_status: shared_board_and_team_image
+  group_result_material: assembly_pieces_subdivided_from_each_assigned_region
   boredom_reduction_mechanism_status: reduce_distractions_during_study_effect_unverified
   implementation_status: not_started
-  problem_definition: 공부 중 집중력 저하로 생기는 딴짓(일시적 권태)
-  measurement: fixed_timer_and_app_camera
-  focus_confirmation: self_only_camera_view_signal_rules_undecided
+  problem_definition: 혼자 공부하다 집중이 흐트러질 때 하던 과제를 떠나 다른 자극을 찾는 일시적 권태
+  measurement: fixed_session_timer
+  focus_confirmation: private_camera_preview_with_simulated_status_for_demo
   session_data_retention: discard_all_at_session_end
   primary_platform: app
   web_session_supported: true
+  study_piece_visibility:
+    own: personal_restoration_level
+    others: maximum_blur_regardless_of_owner_progress
+  creation_image_filters: under_consideration
+  assembly_blur_policy: remove_viewer_blur_at_assembly_show_owners_final_restoration_to_everyone
+  assembly_split_ratio:
+    set_by: session_creator
+    set_at: session_creation
+  assembly_move_permission: piece_owner_only
+  assembly_pass_condition: all_assembly_pieces_in_their_correct_positions
+  incorrect_drop_behavior: return_to_previous_position_owner_can_retry
+  assembly_absent_participant:
+    check_at: focus_deadline
+    scope: start_roster_absent_at_deadline
+    action: place_all_assigned_pieces_in_correct_slots_once
+    restoration: keep_last_earned_state
+    requires_login: false
+additional_features:
+  feature_ids:
+  - F-010
+  - F-011
+  - F-012
+  - F-013
+  login_required_for:
+  - account_rejoin
+  account:
+    login_identifier: email_or_username
+    password: true
+    nickname: true
+  entry:
+  - room_code
+  - random_matching
+  account_rejoin:
+    participant: existing_roster_member
+    offline_progress: no_credit
+    on_return: automatically_open_last_saved_session_if_still_active
+    room_timer: original_deadline
+    after_room_end: unavailable
+    before_focus_deadline: resume_from_last_record
+    after_focus_deadline: use_current_board_keep_auto_placements
+  priority:
+    first:
+    - F-011
+    - F-012
+    later:
+    - F-010
+    - F-013
+  random_matching:
+    room_filter: creator_allows_random_participants
+    entry: random_existing_waiting_room_with_space

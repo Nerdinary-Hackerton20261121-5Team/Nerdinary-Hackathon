@@ -1,21 +1,24 @@
 ---
 document_kind: plan_backup
+status: snapshot
 source_id: plan.diagrams
-status: unregistered_blank
+source_url: https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d#41fc0efa070a81bc8625c09e4420b304
+page_or_node_id: 41fc0efa-070a-81bc-8625-c09e4420b304
 source_revision: null
-captured_at: null
+document_revision: v0.12
+source_last_edited_at: '2026-11-21T14:52:07.666Z'
+captured_at: '2026-11-21T23:52:54+09:00'
+delivery_status: working_draft
+scope: 사용자 흐름도 · MVP 이미지 블록
+source_body_sha256: b8dd8e7440fbd6ba04f85a020dae16042a42d5f08da174d1bf14a2ed098657b7
+export_body_sha256: 2149df93a15bb20c43b5fa039a47eb2ce515339336e9fc69b64f3417c7725754
 ---
-# 다이어그램 목록
+# 사용자 흐름도
 
-**원본 미등록 · 빈 양식 · 실제 백업 아님**
+---
 
-온라인 원본과 실제 적용 개정본을 확인한 뒤 해당 내용으로 갱신한다. 원본 등록·조회·백업이 이루어지기 전에는 현재 기획이나 검증 근거로 사용하지 않는다.
+![세션 개설에서 종료까지의 흐름과 부재자 조각 처리](MVP-FLOW.png)
 
-다이어그램 원본·SVG·PDF는 아직 없다.
-| 다이어그램 ID | 목적·관련 기능 | 원본 링크 | 개정·전달 상태 | 설명 | SVG·PDF 경로 | 확인 결과·누락 |
-|---|---|---|---|---|---|---|
+[Notion 원본 이미지](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d#41fc0efa070a81bc8625c09e4420b304) · [MVP 전체 문서](../PROJECT.md)
 
-사용자 흐름·서비스 구조 등 관계 설명이 필요한 항목만 작성한다.
-이 폴더의 D-xxx.svg·D-xxx.pdf는 명명 규칙이며 실제 내보내기 전에는 만들지 않는다.
-원본은 Figma·FigJam 등을 사용하되 다른 도구로 결정되면 SOURCES.yaml의 service와 위치를 함께 수정한다.
-설명만으로 이해되지 않는 시각 정보는 실제 내보낸 파일을 열어 확인한다.
+[화면 정보구조](../IA.md)

@@ -1,33 +1,22 @@
 ---
 document_kind: plan_backup
+status: snapshot
 source_id: plan.ia
-status: unregistered_blank
+source_url: https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d#41fc0efa070a812f960ec9d0ac1d9535
+page_or_node_id: 41fc0efa-070a-812f-960e-c9d0ac1d9535
 source_revision: null
-captured_at: null
+document_revision: v0.12
+source_last_edited_at: '2026-11-21T14:52:07.666Z'
+captured_at: '2026-11-21T23:52:54+09:00'
+delivery_status: working_draft
+scope: 화면 정보구조 · MVP 이미지 블록
+source_body_sha256: 34debf1a9df8533f08aef7c5934e61c8b9291919bd04dc2126108adb6a733de2
+export_body_sha256: 1aeb4c76241d3558dab506fb50b342d996b5680c86829f522d68b5002af4a499
 ---
-# 정보 구조
+# 화면 정보구조
 
-**원본 미등록 · 빈 양식 · 실제 백업 아님**
+---
 
-온라인 원본과 실제 적용 개정본을 확인한 뒤 해당 내용으로 갱신한다. 원본 등록·조회·백업이 이루어지기 전에는 현재 기획이나 검증 근거로 사용하지 않는다.
+![진입·대기, 집중, 공동 조립·결과, 후순위 계정 화면의 정보구조](diagrams/MVP-IA.png)
 
-- 대상 사용자·권한: 미정.
-- 적용 기능·개정: 미정.
-- 작성·검토 담당: 미정.
-
-## 화면·메뉴 구조
-
-| 화면 ID | 이름 | 상위 영역 | 목적·기능 ID | 진입점 | 이동 대상 | 접근 조건 |
-|---|---|---|---|---|---|---|
-
-## 핵심 사용자 흐름
-
-- 시작 → 주요 행동 → 결과: 미정.
-- 뒤로 가기·취소·실패 후 이동: 미정.
-- 관련 다이어그램 ID·원본 링크: 미정.
-
-## 확인
-
-- 기능에 연결되지 않은 화면·빠진 진입점: 미확인.
-- 개발·디자인과 확인한 내용: 미확인.
-- 남은 질문: 미정.
+[Notion 원본 이미지](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d#41fc0efa070a812f960ec9d0ac1d9535) · [MVP 전체 문서](PROJECT.md)

@@ -6,14 +6,14 @@ source_url: https://app.notion.com/p/41fc0efa070a80aeb91fe456673f9d3b?pvs=204
 page_or_node_id: 41fc0efa-070a-80ae-b91f-e456673f9d3b
 source_revision: null
 document_revision: null
-source_last_edited_at: '2026-11-21T12:15:09.449Z'
-captured_at: '2026-11-21T21:15:26+09:00'
+source_last_edited_at: '2026-11-21T14:52:16.405Z'
+captured_at: '2026-11-21T23:52:54+09:00'
 delivery_status: working_draft
 scope: returned_page_body
 source_format: notion_flavored_markdown
 export_format: markdown
-source_body_sha256: bae1136b7088642570e0aaa7114a901fde76390eebd8700758c99bd698680e4e
-export_body_sha256: 49464102b31582e4a99fb1ea5a05298edbff958f90c59e2818c1c90848800b4e
+source_body_sha256: 5bd9be7f4ce8cfc4bfdf959b14ab231140b219799e85900e0ae5265062c23f0e
+export_body_sha256: aaa5097980de3195185463f8cbf949810a49c45ae73b3105906f9b7e6dc2951d
 ---
 # Nerdinary-Hackathon-5Team
 
@@ -23,6 +23,15 @@ Notion 원본의 조회 사본이다. 날짜·문서 참조·강조·접기 표�
 
 20261121\~20261122
 
+### PM 제출 항목
+
+<toggle>
+
+1
+</toggle>
+
+---
+
 ## 프로젝트 시작 안내
 
 기준일: 2026-11-21. 사용자에게 확인한 팀 정보와 전달받은 행사 자료를 정리했다.
@@ -30,7 +39,7 @@ Notion 원본의 조회 사본이다. 날짜·문서 참조·강조·접기 표�
 - 행사: 2026-11-21 ~ 2026-11-22 무박 2일 해커톤
 - 팀 주제: **권태 + 공부 × 덜어내기**
 - 팀 인원: **PM 1명 · Design 1명 · Web 3명 · Server 2명, 총 7명**
-- 현재 단계는 집중 세션 MVP·기능명세·정책서 v0.4 검토다. 앱 중심으로 진행하며 웹에서도 같은 세션을 실행한다.
+- 현재 단계는 집중 세션 MVP v0.12와 기능명세·정책서 v0.11 검토다. 앱 중심이며 웹에서도 같은 세션을 실행한다.
 
 ## 협업 공간과 접근 상태
 
@@ -133,15 +142,17 @@ Web·Server는 총 5명이며, 기존 공통 역할 분류의 Coding에 해당�
 
 ## 현재 MVP와 작성 문서
 
-개설자가 공통 목표 시간을 정하고 같은 방에서 혼자 또는 여럿이 시작한다. 시작 전 인원으로 명단을 닫고 고정 타이머를 진행한다. 연결이 끊긴 참가자의 조각은 당시 모습으로 고정한다.
+개설자는 세션을 만들 때 공통 목표 시간과 조립용 분할 비율을 정한다. 참가자는 시작 전까지 들어오고, 진행 중 연결이 끊기면 해당 참가자의 복원 상태는 그 시점에 고정된다.
 
-- [집중 세션 MVP — v0.4](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d)
-- [집중 세션 기능명세 — v0.4](https://app.notion.com/p/41fc0efa070a812e9017ee2892491213)
-- [집중 세션 정책서 — v0.4](https://app.notion.com/p/41fc0efa070a816ba3a0c1719aa63984)
+비회원 코드 입장과 랜덤 매칭을 먼저 진행한다. 랜덤 참가를 허용한 기존 대기방의 빈자리에 무작위로 배정한다. 로그인 관련 기능과 같은 계정의 마지막 세션 자동 복귀는 후순위다. 집중 중 돌아오면 단절 구간을 제외하고 직전 기록에서 이어간다. 집중 종료 시 부재한 참가자의 조각은 마지막 복원 모습으로 정답 위치에 자동 배치된다.
 
-기본 이미지 또는 업로드한 사진을 코드로 퍼즐처럼 나눈다. 공부 중 전체 퍼즐과 내 조각·팀원 조각의 복원 상태가 보인다. 앱 카메라로 촬영한 얼굴은 본인에게만 보인다.
+- [집중 세션 MVP — v0.12](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d)
+- [집중 세션 기능명세 — v0.11](https://app.notion.com/p/41fc0efa070a812e9017ee2892491213)
+- [집중 세션 정책서 — v0.11](https://app.notion.com/p/41fc0efa070a816ba3a0c1719aa63984)
 
-타이머가 끝나면 그 시점까지 복원된 조각이 들어갈 자리를 맞힌다. 복원도가 높을수록 이미지 단서가 많이 보이고, 위치 선택 후 정답·오답을 확인한다. 방 종료 시 사진·결과와 임시 자료를 폐기한다. 카메라 신호를 복원도에 연결하는 기준, 웹 촬영 범위, 1인 게임·재시도 규칙은 미정이다.
+세션 이미지에 필터를 적용해 변형한 뒤 방을 여는 기능을 검토한다. 공부 중 내 원조각은 내 복원도에 따라 보이고, 남의 원조각은 그 사람의 진행도와 무관하게 최대 블러로 보인다. 얼굴 미리보기는 본인 전용이며 감지 상태는 데모용이다.
+
+공동 조립 시작 시 각자의 원조각을 개설 때 정한 비율로 나눈다. 1/4이면 원조각 하나당 네 조각이다. 다른 사람에게 씌웠던 최대 블러를 이때 해제하고, 각 소유자가 집중 시간 동안 복원한 모습만 모두에게 동일하게 보여준다. 팀원은 한 판에서 자기 조각만 옮기고, 전체 조각이 모두 제자리에 있으면 함께 통과한다. 잘못 놓으면 해당 조각만 드래그 직전 위치로 돌아가고 소유자는 즉시 다시 놓을 수 있다. 방 종료 시 사진·결과 및 임시 자료를 폐기한다.
 
 ---
 
@@ -151,8 +162,8 @@ Web·Server는 총 5명이며, 기존 공통 역할 분류의 Coding에 해당�
 - 행사 카드 설명과 참고 예시: 사용자가 제공한 S15\_.png, S16\_.png, S17\_.png, S18\_.png의 텍스트를 정리했다.
 - 행사 운영 안내: [공식 안내 사이트](https://cmc-11th-hackathon.vercel.app/) · [타임테이블](https://cmc-11th-hackathon.vercel.app/time) · [역할별 가이드](https://cmc-11th-hackathon.vercel.app/guide) · [심사기준](https://cmc-11th-hackathon.vercel.app/criteria).
 
-[집중 세션 MVP — v0.4](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d)
+[집중 세션 MVP — v0.12](https://app.notion.com/p/41fc0efa070a81cab233c8bd5de5282d)
 
-[집중 세션 기능명세 — v0.4](https://app.notion.com/p/41fc0efa070a812e9017ee2892491213)
+[집중 세션 기능명세 — v0.11](https://app.notion.com/p/41fc0efa070a812e9017ee2892491213)
 
-[집중 세션 정책서 — v0.4](https://app.notion.com/p/41fc0efa070a816ba3a0c1719aa63984)
+[집중 세션 정책서 — v0.11](https://app.notion.com/p/41fc0efa070a816ba3a0c1719aa63984)
