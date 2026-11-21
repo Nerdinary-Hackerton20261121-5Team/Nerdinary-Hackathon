@@ -4,7 +4,7 @@ prepared_on: '2026-10-27'
 mode: project
 stage: preparation
 project_id: nerdenary-hackathon-20261121
-display_name: 2026Nerdenary Hackerton_2
+display_name: Nerdinary-Hackathon
 product_name: null
 event:
   start_date: '2026-11-21'
@@ -13,8 +13,17 @@ event:
   format: 무박 2일 해커톤
   start_time: null
   end_time: null
-  official_url: null
-  information_basis: user_confirmed
+  official_url: https://cmc-11th-hackathon.vercel.app/
+  official_name: 11TH NE(O)RDINARY HACKATHON
+  venue: 중앙대학교 서울캠퍼스 310관 6층 619호, 620호, 622호
+  participant_entry_start: '15:00'
+  participant_entry_end: '15:30'
+  program_start_time: '15:30'
+  closing_ceremony_end_time: '10:30'
+  submission_deadline: '2026-11-22T07:30:00+09:00'
+  information_basis: user_confirmed_and_official_site_browser_snapshot
+  official_site_captured_at: '2026-11-19T10:09:10+09:00'
+  official_site_snapshot: docs/event/2026-11-19/README.md
 active_roles:
 - PM
 - Design
@@ -33,13 +42,15 @@ technology:
   deployment: null
 repository:
   status: initialized
-  remote_url: https://github.com/Whatisjavadude/Nerdenary-Hackerton.git
+  remote_url: https://github.com/Nerdinary-Hackerton20261121-5Team/Nerdinary-Hackathon.git
+  owner: Nerdinary-Hackerton20261121-5Team
+  owner_type: organization
   visibility: private
   intended_default_branch: main
   default_branch: main
-  last_checked_remote_commit: 640b9dc48e7496fa59962723bdda0b5d92e7a622
-  last_checked_remote_at: '2026-10-27T21:50:26+09:00'
-  verification_record: docs/start/REPOSITORY_SETUP.md
+  last_checked_remote_commit: 9552107fd56398310e52b08456a549d782bbcea7
+  last_checked_remote_at: '2026-11-21T15:22:22+09:00'
+  verification_record: docs/start/REPOSITORY_MIGRATION_2026-11-21.md
 online_project_sources_status: unregistered
 limits:
   agent_delegation: not_enabled

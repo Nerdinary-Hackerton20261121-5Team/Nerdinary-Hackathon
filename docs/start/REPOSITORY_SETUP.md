@@ -1,5 +1,8 @@
 # 저장소 초기 설정 및 인계
 
+이 문서는 2026-10-27 최초 생성 당시의 기록이다. 이후 조직 이전·이름 변경과 현재 작업 위치는
+[2026-11-21 이관 기록](REPOSITORY_MIGRATION_2026-11-21.md) 및 PROJECT_CONFIG.yaml을 따른다.
+
 - 작업일: 2026-10-27 (Asia/Seoul)
 - 요청 범위: 기존 준비 문서를 GitHub 저장소에 원격 저장. 개인 설정은 제외.
 - 요청 이름: Nerdenary Hackerton. 공백을 하이픈으로 바꾼 실제 저장소 이름은 Nerdenary-Hackerton.

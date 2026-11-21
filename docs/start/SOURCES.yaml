@@ -2,6 +2,31 @@ schema_version: 1
 purpose: Plan 자료별 원본과 백업 연결 목록
 note: 행사 안내 URL은 제품 기획 원본이 아니다. 링크 등록만으로 접근 성공이나 개발 전달 완료로 판정하지 않는다.
 sources:
+- source_id: event.official_site
+  title: 공식 행사 안내 사이트
+  service: web
+  owner_role: PM
+  owner_person: null
+  status: snapshot
+  source_url: https://cmc-11th-hackathon.vercel.app/
+  page_or_node_id: null
+  related_feature_ids: []
+  depends_on: []
+  fallback_path: docs/event/2026-11-19/README.md
+  manifest_path: docs/event/2026-11-19/MANIFEST.json
+  captured_at: '2026-11-19T10:09:10+09:00'
+  source_revision: null
+  source_last_edited_at: null
+  inclusion: event_reference
+  related_urls:
+  - https://cmc-11th-hackathon.vercel.app/time
+  - https://cmc-11th-hackathon.vercel.app/guide
+  - https://cmc-11th-hackathon.vercel.app/notice
+  - https://cmc-11th-hackathon.vercel.app/criteria
+  limitations:
+  - 연결된 서버 제출 Google Form은 로그인 화면만 확인하여 내부 양식 미확인.
+  - 홈 장식 카드 전환의 일부 최종 상태 미검증.
+  - 제품 기획 Notion과 디자인 Figma 원본 등록을 의미하지 않음.
 - source_id: plan.project
   title: 기획서
   service: notion

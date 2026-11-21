@@ -1,12 +1,13 @@
-# 2026Nerdenary Hackerton_2
+# Nerdinary-Hackathon
 
 - 일정: 2026-11-21 ~ 2026-11-22 / 무박 2일 해커톤
 - Medical: 제외
 - 템플릿: 1.0.0 / 준비일: 2026-10-27
-- 현재 범위: 공통 지침·역할별 문서·빈 양식의 GitHub 원격 저장
-- 저장소: [Whatisjavadude/Nerdenary-Hackerton](https://github.com/Whatisjavadude/Nerdenary-Hackerton) · 비공개 · 기본 브랜치 main
+- 현재 범위: 공통 지침·역할별 문서·빈 양식과 공식 행사 안내 수집본
+- 저장소: [Nerdinary-Hackerton20261121-5Team/Nerdinary-Hackathon](https://github.com/Nerdinary-Hackerton20261121-5Team/Nerdinary-Hackathon) · 조직 소유 · 비공개 · 기본 브랜치 main
 - Git 초기화·첫 커밋·업로드 완료. [.local 개인 설정](.gitignore)은 공유 대상에서 제외한다.
 - 생성·검증 근거: [저장소 초기 설정 기록](docs/start/REPOSITORY_SETUP.md)
+- 작업 위치·이관 범위: [2026-11-21 조직 저장소 이관 기록](docs/start/REPOSITORY_MIGRATION_2026-11-21.md)
 
 ## 처음 시작하기
 
@@ -21,6 +22,7 @@ AI 도구가 AGENTS.md를 자동으로 읽는지는 도구별로 확인해야 �
 
 ## 문서 입구
 
+- [공식 행사 안내 수집 결과 — 2026-11-19](docs/event/2026-11-19/README.md)
 - [PM 역할 지침](docs/PM/README.md)
 - [Design 역할 지침](docs/Design/README.md)
 - [Coding 역할 지침](docs/Coding/README.md)

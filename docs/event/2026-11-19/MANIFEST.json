@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "official-event-2026-11-19",
+  "source_home": "https://cmc-11th-hackathon.vercel.app/",
+  "captured_at": "2026-11-19T10:09:10+09:00",
+  "source_revision": null,
+  "source_last_modified_at": null,
+  "method": "cua_repl browser rendered DOM and actual modal expansion",
+  "status": "public_information_captured_linked_form_partial",
+  "storage_status": "local_uncommitted",
+  "coverage": {
+    "main_pages": 5,
+    "role_modals": 18,
+    "expanded_nested_details": [
+      "criteria/Web: 디자인 구현 완성도 상세 평가지표"
+    ],
+    "home_card_scope": "홈 텍스트·링크·이미지 목록 확인. 장식 카드 전환의 모든 최종 상태는 미검증."
+  },
+  "missing": [
+    {
+      "url": "https://forms.gle/sMLeoNTrPdqUQofD8",
+      "reason": "Google 로그인 화면으로 이동하여 내부 폼 제목·질문·업로드 제한 미확인"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/event/2026-11-19/roles/PM.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "da0ccd40860ef2f9330831a79d4e4fafcf4fdd56bccd5cb2be9b7790da10e28e",
+      "coverage": "PM의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/roles/Design.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "509ca7fb5de04162463a8aef42c950d136c31e620fe823ff0ebd72f1e81d2874",
+      "coverage": "Design의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/roles/Web.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "b02f0a90e0860589a3035423c9f97a3ac8a6a5ebdb8547012a74d3ddc32b4ea6",
+      "coverage": "Web의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/roles/Android.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "ec767e7f9d73d1310358b266fcd13ab01dcff557abc6ba8255b428bebcfd0d47",
+      "coverage": "Android의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/roles/iOS.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "d226e7e75c5d05833156332ed98f261825f3b2e5114944cee909ae29136af350",
+      "coverage": "iOS의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/roles/Server.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/guide",
+        "https://cmc-11th-hackathon.vercel.app/notice",
+        "https://cmc-11th-hackathon.vercel.app/criteria"
+      ],
+      "sha256": "15f7ab1202eda8522cf243a5f4ad84ec3bb435450a7783f1fcf76272780087cf",
+      "coverage": "Server의 시간대별 가이드·유의사항·심사기준 전체 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/TIMETABLE.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/time"
+      ],
+      "sha256": "08e5829d57e688eb290214f4973c69d6f405adbff3ec141c58e32599c4cd60cf",
+      "coverage": "장소와 DAY 1·DAY 2 전체 일정 텍스트"
+    },
+    {
+      "path": "docs/event/2026-11-19/HOME.md",
+      "sources": [
+        "https://cmc-11th-hackathon.vercel.app/"
+      ],
+      "sha256": "4b3559792fd26b70ff2ed185eab90ab06574ea969a21f457aa81cb8b58d7984f",
+      "coverage": "홈의 정보성 텍스트·메뉴·이미지 목록. 일부 장식 카드 전환 최종 상태 미검증"
+    }
+  ]
+}
