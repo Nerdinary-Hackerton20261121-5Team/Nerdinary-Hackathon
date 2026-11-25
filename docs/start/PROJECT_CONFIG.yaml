@@ -105,7 +105,7 @@ collaboration:
     invitation_acceptance_status: unverified
   shared_document_source_id: workspace.notion
 mvp:
-  document_revision: v0.12
+  document_revision: v0.13
   delivery_status: working_draft
   focus: study_session_and_shared_puzzle_assembly
   target: 집이나 독립된 공간에서 혼자 공부하는 사람
@@ -115,7 +115,7 @@ mvp:
   policy_spec: docs/Plan/POLICIES.md
   session_mode:
     group: single_shared_board
-    solo: assemble_subdivisions_on_one_board
+    solo: assemble_assigned_pieces_on_one_board
     entry_flow: single_room_common_target
     roster: closed_at_start
     disconnect: freeze_individual_restoration_at_disconnect
@@ -123,7 +123,7 @@ mvp:
     current_proposal: not_required
     anonymous_identity_policy: draft
   result_presentation_status: shared_board_and_team_image
-  group_result_material: assembly_pieces_subdivided_from_each_assigned_region
+  group_result_material: same_pre_cut_pieces_from_focus_phase
   boredom_reduction_mechanism_status: reduce_distractions_during_study_effect_unverified
   implementation_status: not_started
   problem_definition: 혼자 공부하다 집중이 흐트러질 때 하던 과제를 떠나 다른 자극을 찾는 일시적 권태
@@ -137,9 +137,6 @@ mvp:
     others: maximum_blur_regardless_of_owner_progress
   creation_image_filters: under_consideration
   assembly_blur_policy: remove_viewer_blur_at_assembly_show_owners_final_restoration_to_everyone
-  assembly_split_ratio:
-    set_by: session_creator
-    set_at: session_creation
   assembly_move_permission: piece_owner_only
   assembly_pass_condition: all_assembly_pieces_in_their_correct_positions
   incorrect_drop_behavior: return_to_previous_position_owner_can_retry
@@ -149,6 +146,24 @@ mvp:
     action: place_all_assigned_pieces_in_correct_slots_once
     restoration: keep_last_earned_state
     requires_login: false
+  puzzle_allocation:
+    timing: before_focus_by_start_roster
+    pieces_per_person:
+    - 2
+    - 3
+    total_by_party_size:
+      4: 12
+      5: 10
+      6: 12
+    other_party_totals: undecided
+  puzzle_layout:
+    focus_camera: upper_left_private_preview
+    focus_other_pieces: random_positions_max_blur
+    assembly_board: center
+    assembly_piece_pool: random_across_left_and_right
+    completed_block_selection:
+    - session_owner
+    - final_restoration_percent
 additional_features:
   feature_ids:
   - F-010
